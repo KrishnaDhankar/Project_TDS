@@ -1,6 +1,3 @@
-Here’s a more humanized version of the `README.md`, focusing on the three key bullet points you mentioned:
-
----
 
 # GitHub Users and Repositories Analysis
 
@@ -27,5 +24,3 @@ Here’s a more humanized version of the `README.md`, focusing on the three key 
 By analyzing this data, we gain insights not just into the users but also the broader trends within the developer community in Shanghai. Encouraging active participation in projects could foster collaboration and innovation.
 
 ---
-
-This version adds a conversational tone and emphasizes the key findings and insights while providing a comprehensive overview of the project. Let me know if you’d like to tweak anything!
