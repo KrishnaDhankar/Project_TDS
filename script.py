@@ -3,7 +3,7 @@ import csv
 import time
 
 # GitHub token for authentication
-GITHUB_TOKEN = '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'
+GITHUB_TOKEN = 'Enter your own'
 HEADERS = {
     'Authorization': f'token {GITHUB_TOKEN}',
     'Accept': 'application/vnd.github.v3+json'
