@@ -1,5 +1,4 @@
-#Run this Code in Google Colab and Generate your Personal Token for Github API
-#Please be generous in rating 🙏
+#Run this Code in Google Colab and Generate your Personal Token for Github API and feel free to suggest any improvements
 import requests
 import csv
 import re
