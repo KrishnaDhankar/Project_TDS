@@ -1,3 +1,5 @@
+#Run this Code in Google Colab and Generate your Personal Token for Github API
+#Please be generous in rating 🙏
 import requests
 import csv
 import re
@@ -20,8 +22,8 @@ def fetch_users(location='Shanghai', min_followers=200):
         if response.status_code == 200:
             data = response.json()
             users.extend(data['items'])
-            url = response.links.get('next', {}).get('url')  # Follow pagination
-            time.sleep(1)  # Avoid rate limiting
+            url = response.links.get('next', {}).get('url')  
+            time.sleep(1) 
         else:
             print(f"Error fetching users: {response.status_code}")
             break
@@ -100,7 +102,7 @@ def save_repositories_to_csv(user_logins, filename='repositories.csv'):
                     str(repo.get('has_wiki', '')).lower(), license_name
                 ])
 
-# Main function to orchestrate the process
+
 def main():
     # Step 1: Fetch and save users in Shanghai with over 200 followers
     users_data = fetch_users()
