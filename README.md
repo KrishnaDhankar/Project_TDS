@@ -1,5 +1,5 @@
 
-# GitHub Users and Repositories Analysis
+# Shanghai GitHub Users and Repositories Analysis
 
 - **Data Scraping Approach**: I utilized GitHub's REST API to dive deep into the vibrant developer community in Shanghai, targeting users with over 200 followers to understand their activity and projects.
   
